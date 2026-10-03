@@ -1,0 +1,13 @@
+BERT4RecPy is a modified PyTorch port of FeiSun/BERT4Rec.
+Source: https://github.com/FeiSun/BERT4Rec
+Source revision: 615eaf2004abecda487a38d5b0c72f3dcfcae5b3
+Paper: BERT4Rec: Sequential Recommendation with Bidirectional Encoder
+Representations from Transformer, Fei Sun et al., CIKM 2019.
+
+The original BERT optimization code includes:
+Copyright 2018 The Google AI Language Team Authors.
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Modified September 2026: Python 3/PyTorch model, optimizer, data preparation,
+training, evaluation, checkpointing and tests replace TensorFlow code.
+Original datasets, model configuration files and LICENSE are preserved.
